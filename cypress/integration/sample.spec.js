@@ -1,5 +1,3 @@
-/// <reference types="cypress" />
-
 describe("Kitchen Sink", () => {
   it('clicking "type" navigates to a new url', () => {
     cy.visit("https://example.cypress.io");
